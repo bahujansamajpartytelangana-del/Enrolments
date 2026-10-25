@@ -1,0 +1,56 @@
+// Apple Human Interface Guidelines Design Tokens (iOS 17/18)
+export const colors = {
+  background: '#F2F2F7',
+  card: '#FFFFFF',
+  cardSecondary: '#F8F9FA',
+  primary: '#007AFF',
+  primaryDark: '#0051B3',
+  primaryLight: '#E5F1FF',
+  whatsappGreen: '#25D366',
+  whatsappBg: '#E8F8EE',
+  success: '#34C759',
+  successBg: '#EAF8EE',
+  warning: '#FF9500',
+  warningBg: '#FFF5E5',
+  danger: '#FF3B30',
+  dangerBg: '#FFEBEA',
+  purple: '#5856D6',
+  purpleBg: '#EFEFFC',
+  textPrimary: '#1C1C1E',
+  textSecondary: '#3A3A3C',
+  textMuted: '#8E8E93',
+  border: '#E5E5EA',
+  borderLight: '#F2F2F7',
+  divider: 'rgba(0, 0, 0, 0.06)',
+};
+
+export const shadows = {
+  card: {
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 10,
+    elevation: 2,
+  },
+  hero: {
+    shadowColor: '#007AFF',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.28,
+    shadowRadius: 16,
+    elevation: 6,
+  },
+  tabBar: {
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: -3 },
+    shadowOpacity: 0.06,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+  badge: {
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.04,
+    shadowRadius: 4,
+    elevation: 1,
+  },
+};
